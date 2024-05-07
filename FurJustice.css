@@ -46,6 +46,8 @@ nav{
     left: 0%;
     font-size: 80%;
     margin-top: 30px;
+    position: relative;
+    bottom: -0px;
 }
 
 .container button:hover{
@@ -105,4 +107,15 @@ nav{
 .lol nav:hover{
     width: 280px;
     transition: all 0.5s ease;
+}
+@media (max-width:1000px){
+    .container button{
+        position: relative;
+        bottom: -750px;
+        height: 70px;
+        width: 50%;
+    }
+    .container a{
+        font-size: 25px;
+    }
 }
