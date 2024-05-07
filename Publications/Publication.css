@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0; 
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+
+}
+body{
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+    padding-left: 15px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.lol a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.lol .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.lol .nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+.lol a:hover{
+    background: #eee;
+}
+.lol nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.lol .back{
+    position: absolute;
+    bottom: 0;
+}
+.container{
+    padding-left: 90px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-body{
+    max-width: 80%;
+    max-height: 80%;
+    box-shadow: 2px 2px 12px 0px #808080;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.user-info{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    left: 10px;
+}
+.user-pro-pic{
+    position: relative;
+    width: 50px;
+    border-radius: 50px;
+}
+.date-time{
+    position: relative;
+    margin-left: 4rem;
+    top: -30px;
+}
+.description{
+    position: relative;
+    padding: 0.5rem;
+    top: -30px;
+}
+.post-detail img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -30px;
+}
+.post-detail video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -30px;
+}
