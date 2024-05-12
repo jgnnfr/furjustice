@@ -110,10 +110,9 @@ nav{
 }
 .footer-bottom{
     background: #ACACAC;
-    width: 100vw;
+    width: 100%;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 .footer-bottom p{
     font-size: 14px;
@@ -125,7 +124,7 @@ nav{
 .footer-bottom span{
     position: absolute;
     right: 1%;
-    top: 30%;
+    top: 25%;
 }
 @media (max-width:1000px){
     .container button{
