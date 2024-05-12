@@ -108,6 +108,25 @@ nav{
     width: 280px;
     transition: all 0.5s ease;
 }
+.footer-bottom{
+    background: #ACACAC;
+    width: 100vw;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+.footer-bottom span{
+    position: absolute;
+    right: 1%;
+    top: 30%;
+}
 @media (max-width:1000px){
     .container button{
         position: relative;
