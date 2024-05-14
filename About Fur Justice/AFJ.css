@@ -107,7 +107,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.post-body{
+.contain .post-body{
     max-width: 80%;
     max-height: 80%;
     box-shadow: 2px 2px 12px 0px #808080;
