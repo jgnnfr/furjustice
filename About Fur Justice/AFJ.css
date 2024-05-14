@@ -104,6 +104,16 @@ nav{
     margin: 40px 0;
     padding-left: 90px;
 }
+.one{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-container .card{
     position: relative;
     width: 300px;
@@ -114,9 +124,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.index{
-    display: flex;
 }
 .card-container .card .index img{
     width: 100%;
