@@ -106,13 +106,14 @@ nav{
 }
 .one{
     position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.one img{
+    width: 300px;
+    height: 300px;
 }
 .card-container .card{
     position: relative;
