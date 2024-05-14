@@ -96,13 +96,13 @@ nav{
     margin: 10px auto;
 }
 .isa{
-    border-radius: 15px;
+   position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 90px;
-    margin: 40px 0;
     flex-wrap: wrap;
+    margin: 40px 0;
+    padding-left: 90px;
 }
 .isa img{
     width: 300px;
